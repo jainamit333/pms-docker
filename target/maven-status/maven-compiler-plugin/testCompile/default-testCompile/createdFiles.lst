@@ -1,0 +1,11 @@
+com/mmt/propclient/service/ClientPropServiceTest.class
+com/mmt/propclient/util/IPUtilTest.class
+com/mmt/adminui/services/AdminPanelMiscServiceTest.class
+com/mmt/propclient/controller/ClientPropControllerTest.class
+com/mmt/adminui/controller/AdminPanelPagesControllerTest.class
+com/mmt/adminui/services/AdminPanelPropertiesServiceTest.class
+com/mmt/adminui/controller/NotificationResponseAggregatorTest.class
+com/mmt/adminui/controller/AdminPanelMiscControllerTest.class
+com/mmt/adminui/controller/AdminPanelPropertiesControllerTest.class
+com/mmt/adminui/controller/AdminPanelNodesControllerTest.class
+com/mmt/adminui/services/AdminPanelNodesServiceTest.class

@@ -1,0 +1,17 @@
+<div class="modal-header">
+	<button type="button" class="close" ng-click="ok()" >&times;</button>
+	<h3 class="modal-title">Subscription(s) on File: {{fileName}}</h3>
+</div>
+<div class="modal-body">
+	<div class="row">
+		<div class="col-xs-6">Qualifier</div>
+		<div class="col-xs-6">Observer IP</div>
+	</div>
+	<div ng-repeat="sub in subs" class="row">
+		<div class="col-xs-6">{{sub.qualifier}}</div>
+		<div class="col-xs-6">{{sub.observer.ip}}</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-primary" type="button" ng-click="ok()">Dismiss</button>
+</div>

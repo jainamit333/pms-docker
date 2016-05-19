@@ -1,0 +1,11 @@
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/services/AdminPanelNodesServiceTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/controller/AdminPanelMiscControllerTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/controller/AdminPanelPagesControllerTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/services/AdminPanelPropertiesServiceTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/controller/AdminPanelPropertiesControllerTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/propclient/util/IPUtilTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/services/AdminPanelMiscServiceTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/propclient/service/ClientPropServiceTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/controller/AdminPanelNodesControllerTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/propclient/controller/ClientPropControllerTest.java
+/home/amit/Projects/pms/src/test/java/com/mmt/adminui/controller/NotificationResponseAggregatorTest.java

@@ -1,0 +1,126 @@
+19-May-2016 04:57:33.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.20
+19-May-2016 04:57:33.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 15 2015 18:10:42 UTC
+19-May-2016 04:57:33.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.20.0
+19-May-2016 04:57:33.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2016 04:57:33.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-59-generic
+19-May-2016 04:57:33.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_40-internal-b27
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+19-May-2016 04:57:33.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat/endorsed
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+19-May-2016 04:57:33.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+19-May-2016 04:57:33.565 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:57:33.579 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-May-2016 04:57:33.581 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:57:33.583 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-May-2016 04:57:33.583 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 627 ms
+19-May-2016 04:57:33.625 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-May-2016 04:57:33.625 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.20
+19-May-2016 04:57:33.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /usr/local/tomcat/webapps/pms-0.0.1.war
+19-May-2016 04:57:37.613 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-May-2016 04:57:37.778 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000412: Hibernate Core {5.1.0.Final}
+19-May-2016 04:57:37.781 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000206: hibernate.properties not found
+19-May-2016 04:57:37.783 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000021: Bytecode provider name : javassist
+19-May-2016 04:57:37.873 INFO [localhost-startStop-1] <unknown>.<unknown> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+19-May-2016 04:57:38.661 INFO [localhost-startStop-1] null.null HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19-May-2016 04:57:40.466 INFO [localhost-startStop-1] null.null HHH000397: Using ASTQueryTranslatorFactory
+19-May-2016 04:57:41.667 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-May-2016 04:57:41.703 INFO [localhost-startStop-1] <unknown>.<unknown> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19-May-2016 04:57:41.773 WARN [localhost-startStop-1] null.null HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+19-May-2016 04:57:41.859 INFO [localhost-startStop-1] null.null HHH000397: Using ASTQueryTranslatorFactory
+19-May-2016 04:57:42.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /usr/local/tomcat/webapps/pms-0.0.1.war has finished in 8,363 ms
+19-May-2016 04:57:42.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/docs
+19-May-2016 04:57:42.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 20 ms
+19-May-2016 04:57:42.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/host-manager
+19-May-2016 04:57:42.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 29 ms
+19-May-2016 04:57:42.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/examples
+19-May-2016 04:57:42.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 373 ms
+19-May-2016 04:57:42.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/manager
+19-May-2016 04:57:42.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 26 ms
+19-May-2016 04:57:42.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/ROOT
+19-May-2016 04:57:42.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 20 ms
+19-May-2016 04:57:42.494 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:57:42.503 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:57:42.510 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8927 ms
+19-May-2016 04:59:17.525 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:59:17.577 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:59:17.628 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+19-May-2016 04:59:17.656 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [pms-0.0.1] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-May-2016 04:59:17.658 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [pms-0.0.1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+19-May-2016 04:59:17.690 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:59:17.693 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:59:17.710 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:59:17.711 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:59:24.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.20
+19-May-2016 04:59:24.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 15 2015 18:10:42 UTC
+19-May-2016 04:59:24.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.20.0
+19-May-2016 04:59:24.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2016 04:59:24.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-59-generic
+19-May-2016 04:59:24.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2016 04:59:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-May-2016 04:59:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_40-internal-b27
+19-May-2016 04:59:24.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-May-2016 04:59:24.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+19-May-2016 04:59:24.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+19-May-2016 04:59:24.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+19-May-2016 04:59:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2016 04:59:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/usr/local/tomcat/endorsed
+19-May-2016 04:59:24.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+19-May-2016 04:59:24.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+19-May-2016 04:59:24.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+19-May-2016 04:59:24.675 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+19-May-2016 04:59:24.768 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:59:24.788 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-May-2016 04:59:24.790 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:59:24.792 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-May-2016 04:59:24.792 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 527 ms
+19-May-2016 04:59:24.814 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+19-May-2016 04:59:24.814 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.20
+19-May-2016 04:59:24.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /usr/local/tomcat/webapps/pms-0.0.1.war
+19-May-2016 04:59:28.285 INFO [localhost-startStop-1] null.null HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-May-2016 04:59:28.463 INFO [localhost-startStop-1] null.null HHH000412: Hibernate Core {5.1.0.Final}
+19-May-2016 04:59:28.465 INFO [localhost-startStop-1] null.null HHH000206: hibernate.properties not found
+19-May-2016 04:59:28.468 INFO [localhost-startStop-1] null.null HHH000021: Bytecode provider name : javassist
+19-May-2016 04:59:28.561 INFO [localhost-startStop-1] null.null HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+19-May-2016 04:59:29.331 INFO [localhost-startStop-1] null.null HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19-May-2016 04:59:31.214 INFO [localhost-startStop-1] null.null HHH000397: Using ASTQueryTranslatorFactory
+19-May-2016 04:59:32.330 INFO [localhost-startStop-1] null.null HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+19-May-2016 04:59:32.367 INFO [localhost-startStop-1] null.null HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19-May-2016 04:59:32.449 WARN [localhost-startStop-1] null.null HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+19-May-2016 04:59:32.530 INFO [localhost-startStop-1] null.null HHH000397: Using ASTQueryTranslatorFactory
+19-May-2016 04:59:32.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /usr/local/tomcat/webapps/pms-0.0.1.war has finished in 7,850 ms
+19-May-2016 04:59:32.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/docs
+19-May-2016 04:59:32.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/docs has finished in 18 ms
+19-May-2016 04:59:32.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/host-manager
+19-May-2016 04:59:32.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/host-manager has finished in 32 ms
+19-May-2016 04:59:32.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/examples
+19-May-2016 04:59:32.982 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/examples has finished in 238 ms
+19-May-2016 04:59:32.982 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/manager
+19-May-2016 04:59:33.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/manager has finished in 20 ms
+19-May-2016 04:59:33.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/tomcat/webapps/ROOT
+19-May-2016 04:59:33.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/tomcat/webapps/ROOT has finished in 16 ms
+19-May-2016 04:59:33.029 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2016 04:59:33.038 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-May-2016 04:59:33.046 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8254 ms
+19-May-2016 04:59:42.202 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1146, SQLState: 42S02
+19-May-2016 04:59:42.203 ERROR [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Table 'propertiesnewdb.filesystem' doesn't exist
+19-May-2016 04:59:48.809 WARN [http-nio-8080-exec-1] null.null SQL Error: 1146, SQLState: 42S02
+19-May-2016 04:59:48.810 ERROR [http-nio-8080-exec-1] null.null Table 'propertiesnewdb.filesystem' doesn't exist

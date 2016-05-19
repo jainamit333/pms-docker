@@ -1,0 +1,1 @@
+var mainModule = angular.module("mainModule", ['toaster','ngAnimate','ui.bootstrap','sc.select']);

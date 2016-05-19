@@ -1,0 +1,34 @@
+<div class="modal-header">
+	<button type="button" class="close" ng-click="ok()">&times;</button>
+	<h3 class="modal-title">Variants for File: {{filename}}</h3>
+</div>
+<div class="modal-body">
+	<div ng-show="!noVars()">No Variants</div>
+	<div class="container-fluid">
+		<div class="well container-fluid" ng-repeat="var in vars">
+			<div class="col-xs-6">
+				<h3>Observers</h3>
+				<div ng-repeat="obv in var.observers">{{obv.ip}}</div>
+			</div>
+			<div class="col-xs-6">
+				<h3>Properties</h3>
+				<div ng-repeat="prop in var.properties">
+					<div style="padding-left: 0" class="col-xs-6">
+					<span class="propsshowvar">{{prop.key}}</span>
+					</div>
+					<div style="padding-left: 0" class="col-xs-6">
+						<span class="propsshowvar">{{prop.value}}</span>
+					</div>
+				</div>
+			</div>
+			<!-- <button class="btn btn-xs btn-danger" type="button"
+				ng-click="editVariant()">Edit Variant</button> -->
+			<button class="btn btn-xs btn-danger" type="button"
+				ng-click="deleteVariant(var)">Delete Variant</button>
+		</div>
+
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-primary" type="button" ng-click="ok()">Dismiss</button>
+</div>
