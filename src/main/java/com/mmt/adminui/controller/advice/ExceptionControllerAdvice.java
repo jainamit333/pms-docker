@@ -16,12 +16,12 @@ import com.mmt.adminui.pojo.RenameNodeRequest;
 @Aspect
 @Component
 public class ExceptionControllerAdvice {
-	@Pointcut("execution(com.mmt.adminui.pojo.NodeOperationResponse com.mmt.adminui.controller.AdminPanelNodesController.*(..)))")
+	@Pointcut("execution(com.mmt.adminui.pojo.NodeOperationResponse com.mmt.adminui.controller.AdminPanelNodesController.*(..))")
 	public void adminPanelControllerPointCut() {
 
 	}
 
-	@Pointcut("execution(com.mmt.adminui.pojo.OperationResponse com.mmt.adminui.controller.AdminPanelMiscController.*(..)))")
+	@Pointcut("execution(com.mmt.adminui.pojo.OperationResponse com.mmt.adminui.controller.AdminPanelMiscController.*(..))")
 	public void adminPanelMiscControllerPointCut() {
 
 	}

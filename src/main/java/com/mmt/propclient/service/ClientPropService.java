@@ -65,7 +65,7 @@ public class ClientPropService {
 				return clientResponse;
 				}
 		}
-		Subscription subs=subscriptionRepository.findOneBySubsQualifier(qualifier);
+		Subscription subs=subscriptionRepository.findOneBySubsQualifierAndObserverIp(qualifier, observerIp);
 		if(subs==null)
 			subs=new Subscription();
 		subs.setObserver(obr);
